@@ -1,0 +1,18 @@
+body{
+    background:#372C2E;
+    margin-top:30px;
+    
+    text-align: center;
+}
+#todo{
+    font-size: 25px;
+    color: #DE9E48;
+    background: #EBE8E7;
+}
+#container{
+    color:#FFFFFF;
+    text-align: left;
+    font-size:20px;
+    font-weight: bold;
+    padding:0 40px;
+}

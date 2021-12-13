@@ -1,13 +1,22 @@
 <html>
     <head>
         <title>Todo List</title>
+        <link rel="stylesheet" href="screen.css">
     </head>
     <body>
         <div>
-            <input type='text' name='todo_input'>
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
+            <label style="font-size: 25px; color: #DE9E48;" for="todo">Select Completed or pending:</label>
+            <select id="todo" name="todo">
+                <option value="None"></option>
+                <option  value="Completed">Completed</option>
+                <option  value="Pending">Pending</option>
+            </select>
+        </div>
+        
+        
+        <div id="container">
         </div>
     </body>
     <script src='./script.js'></script>
 </html>
+© 2021 GitHub, Inc.
